@@ -1,0 +1,44 @@
+
+*{
+    font-family: 'Signika Negative', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #aad7da;
+}
+
+.conainterplus{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    padding: 20px;
+    background-color:rgb(240, 240, 240);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    border-radius: 4px;
+    width: 20%;
+    text-align: center;
+}
+
+.conainterplus button{
+    position: relative;
+    font-size: 79px;
+    background-color: #aad7da;
+    border: none;
+    top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgb(59, 97, 128);
+}
+
+
+button:hover{
+    color: rgb(75, 75, 75);
+    cursor: pointer;
+}
